@@ -12,7 +12,7 @@ The project was written with the idea that it would be run on some cloud somewhe
 
 #  Lets get this example running
 
-1) Configure `env.sh` to match your physical deployment
+1) Configure [`env.sh`](scripts/env.sh)  to match your physical deployment
 2) [Review the spring boot application code](src/main/java/com/example/demo/DemoApplication.java) 
 3) [Review the spring boot application configuration](src/main/resources/application.yml)
 4) Compile the spring boot application `./gradlew bootJar`
