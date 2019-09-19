@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: application-name
+  data:
+    gemfire:
+      cache:
+        name: application-name-should-overide
+        copy-on-read: true
+      locators: ip-172-31-45-33.us-west-2.compute.internal[10334],ip-172-31-33-177.us-west-2.compute.internal[10334]
+server:
+  port: 3018
